@@ -5,50 +5,34 @@ Period/Core:  7
  
  
 """
+noun1 = input ("Enter a noun") 
  
-print("Enter a noun")
-madlib1 = str(input())
+adjective1 = input ("Enter an adjective") 
  
-print("Enter an adjective")
-madlib2 = str(input())
+pluralnoun1= input ("Enter a plural noun") 
+
+noun2= input ("Enter a diffrent noun") 
+
+pluralnoun2= input ("Enter a diffrent plural noun") 
  
-print("Enter a plural noun")
-madlib3 = str(input())
+adjective2= input ("Enter a diffrent adjective") 
  
-print("Enter a diffrent noun")
-madlib4 = str(input())
+noun3= input ("Enter a diffrent noun") 
+
+verbing1= input ("Enter a verb ending with ing") 
  
-print("Enter a diffrent plural noun")
-madlib5 = str(input())
+bodypart1= input ("Enter a part of the body") 
  
-print("Enter a diffrent adjective")
-madlib6 = str(input())
+bodypartplural1= input ("Enter a part of the body plural")
+
+bodypart2= input ("Enter a diffrent body part") 
  
-print("Enter a diffrent noun")
-madlib7 = str(input())
+adverbly1= input ("Enter a adverb ending with ly") 
  
-print("Enter a verb ending with ing")
-madlib8 = str(input())
+color1= input ("Enter a color") 
  
-print("Enter a part of the body")
-madlib9 = str(input())
+partofthebody3= input ("Enter a diffrent part of the body") 
+
+partofthebody4= input ("Enter a diffrent part of the body") 
  
-print("Enter a part of the body plural")
-madlib10 = str(input())
- 
-print("Enter another part of the body plural")
-madlib11 = str(input())
- 
-print("Enter an adverb ending with ly")
-madlib12 = str(input())
- 
-print("Enter a color")
-madlib13 = str(input())
- 
-print("Enter a part of the body")
-madlib14 = str(input())
- 
-print("Enter a diffrent part of the body")
-madlib15 = str(input())
- 
-print (f"Surprisingly a skunk is a friendly {madlib1} who can make a {madlib2} house hold pet.\nBut what makes these colorful{madlib3}smell to high {madlib4}? \nThe skunk has a scent {madlib5} that contain a {madlib6} smelling fluid.\nWhen attacked that skunk aims this smelly {madlib7} at its enemies.\nBut the skunk does give a warning before{madlib8}.\nIt raises its {madlib9}first or stamps its{madlib10}so that you can run way as fast as your {madlib11} can carry you.\nThe most'{madlib12}'reconginzable skunk is the one with a{madlib13}'line on its'{madlib14}and another one between its{madlib15}and its ears.")
+print (f"Surprisingly a skunk is a friendly {noun1} who can make a {adjective1} house hold pet.\nBut what makes these colorful{pluralnoun1}smell to high {noun2}? \nThe skunk has a scent {pluralnoun2} that contain a {adjective2} smelling fluid.\nWhen attacked that skunk aims this smelly {noun3} at its enemies.\nBut the skunk does give a warning before{verbing1}.\nIt raises its {bodypart1}first or stamps its{bodypartplural1}so that you can run way as fast as your {bodypart2} can carry you.\nThe most'{adverbly1}'reconginzable skunk is the one with a{color1}'line on its'{partofthebody3}and another one between its{partofthebody4}and its ears.")
